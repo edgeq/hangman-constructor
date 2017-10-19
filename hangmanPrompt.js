@@ -20,7 +20,7 @@ function gameAsk() {
     }]).then(function(answers) {
 
         if (hangmanWord.guessAttempt(answers.letterGuess)) {
-            console.log('good guess! guess again');
+            console.log('good guess!');
         } else {
             console.log('wrong letter. try again');
         };
